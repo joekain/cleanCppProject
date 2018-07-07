@@ -17,7 +17,7 @@ int SomeClass::get()
 //------------------------------------------------------------------------------
 
 #ifdef UNIT_TESTS
-#include "catch.hpp"
+#include "catch2/catch.hpp"
 
 TEST_CASE("SomeClass set and get")
 {
